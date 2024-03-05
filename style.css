@@ -1,0 +1,30 @@
+body {
+    color: coral;
+    background-color: lightblue
+}
+header {
+    text-align: center;
+    border: solid 3px black;
+    margin-bottom: 100px;
+}
+h2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    text-decoration: underline;
+}
+.line {
+    border: dashed 3px black;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.line a {
+    color: coral;
+    font-size: 18px;
+}
+.line a:hover {
+    color: #802200;
+}
+.line h3 {
+    margin-left: 1%;
+}
