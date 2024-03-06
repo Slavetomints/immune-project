@@ -1,13 +1,16 @@
 body {
     color: coral;
-    background-color: lightblue
+    background-color: lightblue;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 header {
     text-align: center;
     border: solid 3px black;
     margin-bottom: 100px;
 }
-h2 {
+.line h2 {
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
@@ -18,13 +21,65 @@ h2 {
     border-radius: 50px;
     margin-bottom: 50px;
 }
-.line a {
+a {
     color: coral;
     font-size: 18px;
 }
-.line a:hover {
-    color: #802200;
+a:hover {
+    color: #555;
 }
 .line h3 {
     margin-left: 1%;
+}
+.flex-container {
+    display: flex;
+}
+.image {
+    width: 600px;
+    height: auto;
+    margin-left: 5%;
+}
+.collapsible {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: solid 1px black;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.active, 
+.collapsible:hover {
+    background-color: #555;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-bottom: 5%;
+}
+nav {
+    margin: 5% 0% 0% 0%;
+    background-color: coral;
+    display: block;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    
+}
+nav a {
+    color: lightblue;
+}
+nav a:hover {
+    color: #555;
+}
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 500px;
 }
