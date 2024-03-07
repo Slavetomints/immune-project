@@ -56,10 +56,10 @@ a:hover {
 }
 .content {
     padding: 0 18px;
-    display: none;
+    background-color: white;
+    max-height: 0;
     overflow: hidden;
-    background-color: #f1f1f1;
-    margin-bottom: 5%;
+    transition: max-height 0.2s ease-out;
 }
 nav {
     margin: 5% 0% 0% 0%;
